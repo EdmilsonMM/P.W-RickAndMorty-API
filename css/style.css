@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.content_title{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:  35px;
+    color: rgb(39, 39, 39);
+    position: relative;
+    text-align: center;
+}
+
+
+.content_personajes{
+    background: rgb(39, 39, 39);
+    padding: 4rem 0;
+
+}
+
+.nombres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.personajes{
+    color: rgb(255, 255, 255);
+    max-width: 350px;
+    background: rgba(51, 51, 51, 0.925);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+.personajes p{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.personajes img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.vivo, .muerto , .desconocido{
+    padding: 0 8px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background: rgb(35, 248, 7);
+    box-shadow:  0 0 10px rgb(35, 248, 7);
+}
+.muerto{
+    background: rgb(253, 4, 4);
+    box-shadow:  0 0 10px rgb(253, 4, 4);
+}
+.desconocido{
+    background: rgb(124, 124, 124);
+    box-shadow:  0 0 10px rgb(124, 124, 124);
+}
+
+
+.botones{
+    padding: 20px 0;
+    background: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+}
+
+.regresar , .vermas{
+    margin-right: 40px;
+    padding: 10px 20px;
+    font-weight: bolder;
+    background: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+
+    font-size: 16px;
+}
+.ico_regre, .ico_ver{
+    font-size: 30px;
+}
+.ico_regre {
+    margin-right: 10px ;
+}
+.ico_ver{
+    margin-left: 10px;
+}
+
+
+.footer p{
+    padding: 10px ;
+    text-align: center;
+}
